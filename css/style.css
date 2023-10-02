@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  height: 15vh;
+  background-color: beige;
+}
+nav ul {
+  border: 3px double purple;
+}
+nav ul li {
+  color: red;
+}
+nav + section {
+  border: 3px double red;
+  background-color: rgb(146, 102, 7);
+  height: 10vh;
+}
+
+.square {
+  width: 5vw;
+  height: 5vw;
+  background-color: yellow;
+}
+
+.round {
+  width: 20vw;
+  height: 20vw;
+  background-color: lime;
+  border-radius: 10vw;
+}
+
+/*# sourceMappingURL=style.css.map */
